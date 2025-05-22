@@ -55,7 +55,7 @@ const LoginPage = () => {
       // console.log(currentUser)
     }
     // console.log(currentUser.passwordLogin)|| currentUser.password!=userData.passwordLogin
-    if (!currentUser ) {
+    if (!currentUser || currentUser.password!=userData.passwordLogin) {
       setWrongInfo(true);
       setTimeout(() => {
         setWrongInfo(false);
