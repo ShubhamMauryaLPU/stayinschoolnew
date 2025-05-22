@@ -14,6 +14,7 @@ const Navbar = () => {
   let [children1, setChildren1] = useState(false);
   let [indChild, setIndChild] = useState("");
   let [userProfileImage, setUserProfileImage] = useState("");
+  let [notification,setNotification]=useState({});
   let navigate = useNavigate();
   let activeMenu = () => {
     setMenu((prev) => (prev = !prev));
@@ -49,6 +50,7 @@ const Navbar = () => {
     const userData = JSON.parse(sessionStorage.getItem("user")) || {};
     setUser1(userData);
     // console.log(userData)
+    userData.notification&& setNotification(userData.notification)
     setUserProfileImage(userData.image || "/images/about/shubham1.png");
   }, [setUser1.image]);
   useEffect(() => {
@@ -146,13 +148,13 @@ const Navbar = () => {
                       </div>
                       <div>
                         <h2 className="font-semibold text-sm">
-                          Important Update
+                          {notification.title}
                         </h2>
                         <p className="text-xs text-gray-300 mt-1">
-                          Your profile needs verification
+                          {notification.desc}
                         </p>
                         <span className="text-xs text-teal-300 mt-1 block">
-                          10 minutes ago
+                          1 minutes ago
                         </span>
                       </div>
                     </div>
@@ -173,8 +175,46 @@ const Navbar = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    More Notifications
+                    Warning Notefication 
                   </h1>
+                  <div className="space-y-3">
+                  <div className="p-2 hover:bg-teal-900/30 rounded-lg transition-colors cursor-pointer">
+                    <div className="flex items-start">
+                      <div className="bg-yellow-400/10 p-1.5 rounded-full mr-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5 text-yellow-300"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div>
+                        <h2 className="font-semibold text-sm">
+                          Attendance: {notification.warningType&&notification.warningType.attendance }
+                          {/* {console.log(notification.warningType&&notification.warningType.attendance )} */}
+                        </h2>
+                        <h2 className="font-semibold text-sm">
+                          GPA: {notification.warningType&&notification.warningType.gpa }
+                          {/* {console.log(notification.warningType&&notification.warningType.attendance )} */}
+                        </h2>
+                        <h2 className="font-semibold text-sm">
+                          Behavior: {notification.warningType&&notification.warningType.behavior }
+                          {/* {console.log(notification.warningType&&notification.warningType.attendance )} */}
+                        </h2>
+                      
+                        <span className="text-xs text-teal-300 mt-1 block">
+                          1 minutes ago
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
