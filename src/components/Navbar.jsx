@@ -175,7 +175,7 @@ const Navbar = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    Warning Notefication 
+                    Warning Notification 
                   </h1>
                   <div className="space-y-3">
                   <div className="p-2 hover:bg-teal-900/30 rounded-lg transition-colors cursor-pointer">
