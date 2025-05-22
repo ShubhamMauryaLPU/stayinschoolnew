@@ -1,0 +1,126 @@
+const finance = [
+  {
+    studentId: "STU2025001",
+    fullName: "Aarav Mehta",
+    dateOfBirth: "2003-06-15",
+    gender: "Male",
+    email: "aarav.mehta@example.com",
+    phone: "+91-9876543210",
+    governmentId: "AADHAAR1234567890",
+
+    academicInfo: {
+      institution: "National Institute of Technology",
+      course: "B.Tech in Computer Science",
+      year: 2,
+      semester: 4,
+      cgpa: 8.2,
+      admissionType: "Merit-based"
+    },
+
+    financialInfo: {
+      familyIncome: 180000,
+      guardianOccupation: "Farmer",
+      annualIncomeCertificate: "income_cert_aarav.pdf",
+      bankAccount: {
+        accountNumber: "123456789012",
+        bankName: "State Bank of India",
+        ifsc: "SBIN0001234"
+      },
+      previousAid: "None",
+      loanRequested: 40000,
+      loanPurpose: "Tuition Fees",
+      repaymentCapacityEstimate: 5000
+    },
+
+    documents: {
+      incomeCertificate: "income_cert_aarav.pdf",
+      feeStructure: "fee_structure_nit.pdf",
+      bonafide: "bonafide_nit.pdf",
+      bankPassbook: "passbook_aarav.jpg",
+      photo: "aarav_photo.jpg",
+      signature: "aarav_sign.png",
+      academicRecords: ["sem1_marksheet.pdf", "sem2_marksheet.pdf"]
+    },
+
+    loanApplication: {
+      applicationId: "APP20250001",
+      status: "Pending",
+      dateOfApplication: "2025-04-28",
+      approvedAmount: 0,
+      installmentPlan: [],
+      disbursementStatus: [],
+      repaymentStatus: "Not Started",
+      adminRemarks: "",
+      reviewedBy: null
+    },
+
+    verification: {
+      eligibilityScore: 82,
+      verificationStatus: "In Progress"
+    }
+  },
+  {
+    studentId: "STU2025002",
+    fullName: "Neha Sharma",
+    dateOfBirth: "2004-02-10",
+    gender: "Female",
+    email: "neha.sharma@example.com",
+    phone: "+91-9876501234",
+    governmentId: "AADHAAR2345678901",
+
+    academicInfo: {
+      institution: "Delhi University",
+      course: "BA in Economics",
+      year: 1,
+      semester: 2,
+      cgpa: 8.7,
+      admissionType: "Quota"
+    },
+
+    financialInfo: {
+      familyIncome: 150000,
+      guardianOccupation: "Laborer",
+      annualIncomeCertificate: "income_cert_neha.pdf",
+      bankAccount: {
+        accountNumber: "987654321098",
+        bankName: "Punjab National Bank",
+        ifsc: "PUNB0456789"
+      },
+      previousAid: "Scholarship 2024",
+      loanRequested: 30000,
+      loanPurpose: "Hostel Fees",
+      repaymentCapacityEstimate: 3000
+    },
+
+    documents: {
+      incomeCertificate: "income_cert_neha.pdf",
+      feeStructure: "fee_structure_du.pdf",
+      bonafide: "bonafide_du.pdf",
+      bankPassbook: "passbook_neha.jpg",
+      photo: "neha_photo.jpg",
+      signature: "neha_sign.png",
+      academicRecords: ["sem1_marksheet.pdf"]
+    },
+
+    loanApplication: {
+      applicationId: "APP20250002",
+      status: "Approved",
+      dateOfApplication: "2025-04-20",
+      approvedAmount: 30000,
+      installmentPlan: [
+        { installmentNo: 1, amount: 15000, dueDate: "2025-05-01", paid: true },
+        { installmentNo: 2, amount: 15000, dueDate: "2025-07-01", paid: false }
+      ],
+      disbursementStatus: ["Paid", "Pending"],
+      repaymentStatus: "In Progress",
+      adminRemarks: "Eligible and verified",
+      reviewedBy: "admin001"
+    },
+
+    verification: {
+      eligibilityScore: 88,
+      verificationStatus: "Verified"
+    }
+  }
+];
+export default finance;

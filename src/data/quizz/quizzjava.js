@@ -1,0 +1,155 @@
+const javaQuiz = [
+    {
+      question: "What is the default value of a boolean variable in Java?",
+      options: ["true", "false", "null", "0"],
+      answer: "false",
+    },
+    {
+      question: "Which keyword is used to define a constant variable in Java?",
+      options: ["static", "final", "const", "var"],
+      answer: "final",
+    },
+    {
+      question: "Which of these is NOT a primitive data type in Java?",
+      options: ["int", "boolean", "String", "double"],
+      answer: "String",
+    },
+    {
+      question: "What is used to compile Java code?",
+      options: ["JVM", "JRE", "JDK", "JIT"],
+      answer: "JDK",
+    },
+    {
+      question: "Which of these is used to handle exceptions in Java?",
+      options: ["try-catch", "throw", "finally", "All of the above"],
+      answer: "All of the above",
+    },
+    {
+      question: "Which method is called when an object is created?",
+      options: ["finalize()", "main()", "constructor", "init()"],
+      answer: "constructor",
+    },
+    {
+      question: "Which access modifier makes a variable accessible only within the same class?",
+      options: ["public", "private", "protected", "default"],
+      answer: "private",
+    },
+    {
+      question: "What is the size of an 'int' in Java?",
+      options: ["2 bytes", "4 bytes", "8 bytes", "Depends on the system"],
+      answer: "4 bytes",
+    },
+    {
+      question: "Which collection class in Java allows null keys?",
+      options: ["HashSet", "TreeMap", "HashMap", "None of the above"],
+      answer: "HashMap",
+    },
+    {
+      question: "Which of these loops is guaranteed to execute at least once?",
+      options: ["for loop", "while loop", "do-while loop", "None"],
+      answer: "do-while loop",
+    },
+    {
+      question: "Which Java feature allows multiple methods with the same name but different parameters?",
+      options: ["Method Overriding", "Method Overloading", "Encapsulation", "Abstraction"],
+      answer: "Method Overloading",
+    },
+    {
+      question: "Which operator is used for object reference comparison?",
+      options: ["==", "equals()", "!=", "compareTo()"],
+      answer: "==",
+    },
+    {
+      question: "Which Java keyword is used to inherit a class?",
+      options: ["implements", "extends", "super", "inherits"],
+      answer: "extends",
+    },
+    {
+      question: "Which package contains the Scanner class?",
+      options: ["java.io", "java.lang", "java.util", "java.net"],
+      answer: "java.util",
+    },
+    {
+      question: "Which keyword is used to prevent method overriding?",
+      options: ["static", "final", "abstract", "synchronized"],
+      answer: "final",
+    },
+    {
+      question: "Which class is the parent class of all Java classes?",
+      options: ["Object", "Main", "Super", "Base"],
+      answer: "Object",
+    },
+    {
+      question: "What is the correct way to declare an array in Java?",
+      options: ["int arr[];", "array int[];", "arr = int[];", "int[] arr;"],
+      answer: "int[] arr;",
+    },
+    {
+      question: "Which of these data structures uses LIFO order?",
+      options: ["Queue", "ArrayList", "Stack", "LinkedList"],
+      answer: "Stack",
+    },
+    {
+      question: "Which Java collection is ordered and allows duplicate values?",
+      options: ["Set", "Queue", "List", "Map"],
+      answer: "List",
+    },
+    {
+      question: "What does the 'super' keyword refer to?",
+      options: ["Child class", "Parent class", "Static variable", "Interface"],
+      answer: "Parent class",
+    },
+    {
+      question: "Which exception is thrown when an array is accessed with an invalid index?",
+      options: ["ArrayIndexOutOfBoundsException", "NullPointerException", "IOException", "ClassCastException"],
+      answer: "ArrayIndexOutOfBoundsException",
+    },
+    {
+      question: "Which keyword is used to implement an interface?",
+      options: ["extends", "implements", "interface", "super"],
+      answer: "implements",
+    },
+    {
+      question: "What is the base class for all exceptions in Java?",
+      options: ["Throwable", "Exception", "Error", "RuntimeException"],
+      answer: "Throwable",
+    },
+    {
+      question: "Which method is used to get the length of a String in Java?",
+      options: ["length()", "size()", "getLength()", "count()"],
+      answer: "length()",
+    },
+    {
+      question: "Which of these is a valid constructor declaration?",
+      options: ["void Constructor() {}", "Constructor() {}", "public void Constructor() {}", "static Constructor() {}"],
+      answer: "Constructor() {}",
+    },
+    {
+      question: "Which Java feature allows one interface to extend another?",
+      options: ["Inheritance", "Polymorphism", "Encapsulation", "Abstraction"],
+      answer: "Inheritance",
+    },
+    {
+      question: "What is the default value of an object reference in Java?",
+      options: ["0", "null", "undefined", "empty"],
+      answer: "null",
+    },
+    {
+      question: "Which Java statement is used to exit a loop?",
+      options: ["return", "exit", "break", "continue"],
+      answer: "break",
+    },
+    {
+      question: "Which keyword is used to define an abstract class?",
+      options: ["interface", "abstract", "extends", "implements"],
+      answer: "abstract",
+    },
+    {
+      question: "What is the purpose of the 'this' keyword?",
+      options: ["Refers to the current instance", "Calls a static method", "Imports a package", "Creates an object"],
+      answer: "Refers to the current instance",
+    }
+  ];
+  
+  export default javaQuiz;
+  

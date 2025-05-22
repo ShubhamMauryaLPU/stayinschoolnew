@@ -1,0 +1,149 @@
+const historyQuiz = [
+    {
+        question: "Who was the first President of the United States?",
+        options: ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+        answer: "George Washington"
+    },
+    {
+        question: "In which year did World War II end?",
+        options: ["1942", "1945", "1948", "1950"],
+        answer: "1945"
+    },
+    {
+        question: "Which ancient civilization built the pyramids?",
+        options: ["Romans", "Greeks", "Egyptians", "Persians"],
+        answer: "Egyptians"
+    },
+    {
+        question: "Who was known as the 'Iron Lady'?",
+        options: ["Angela Merkel", "Margaret Thatcher", "Indira Gandhi", "Hillary Clinton"],
+        answer: "Margaret Thatcher"
+    },
+    {
+        question: "Which empire was ruled by Julius Caesar?",
+        options: ["Greek Empire", "Roman Empire", "Ottoman Empire", "Persian Empire"],
+        answer: "Roman Empire"
+    },
+    {
+        question: "What year did the Titanic sink?",
+        options: ["1905", "1912", "1918", "1923"],
+        answer: "1912"
+    },
+    {
+        question: "Which war was fought between the North and South regions of the United States?",
+        options: ["World War I", "The American Revolution", "The Civil War", "The Cold War"],
+        answer: "The Civil War"
+    },
+    {
+        question: "Who was the first man to step on the Moon?",
+        options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+        answer: "Neil Armstrong"
+    },
+    {
+        question: "Which city was the first to be attacked with an atomic bomb?",
+        options: ["Nagasaki", "Hiroshima", "Tokyo", "Kyoto"],
+        answer: "Hiroshima"
+    },
+    {
+        question: "Who painted the Mona Lisa?",
+        options: ["Michelangelo", "Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci"],
+        answer: "Leonardo da Vinci"
+    },
+    {
+        question: "Which event marked the start of World War I?",
+        options: ["The attack on Pearl Harbor", "The assassination of Archduke Franz Ferdinand", "The signing of the Treaty of Versailles", "The fall of the Berlin Wall"],
+        answer: "The assassination of Archduke Franz Ferdinand"
+    },
+    {
+        question: "Which country was the first to grant women the right to vote?",
+        options: ["United States", "United Kingdom", "New Zealand", "Canada"],
+        answer: "New Zealand"
+    },
+    {
+        question: "Which ancient civilization invented democracy?",
+        options: ["Romans", "Greeks", "Chinese", "Egyptians"],
+        answer: "Greeks"
+    },
+    {
+        question: "What was the name of the ship that brought the Pilgrims to America?",
+        options: ["Santa Maria", "Mayflower", "Endeavour", "Beagle"],
+        answer: "Mayflower"
+    },
+    {
+        question: "Who discovered America?",
+        options: ["Christopher Columbus", "Leif Erikson", "James Cook", "Marco Polo"],
+        answer: "Christopher Columbus"
+    },
+    {
+        question: "Which country was the main enemy of the United States during the Cold War?",
+        options: ["Germany", "Japan", "Soviet Union", "China"],
+        answer: "Soviet Union"
+    },
+    {
+        question: "Who was the leader of Nazi Germany?",
+        options: ["Joseph Stalin", "Winston Churchill", "Adolf Hitler", "Benito Mussolini"],
+        answer: "Adolf Hitler"
+    },
+    {
+        question: "Which U.S. president issued the Emancipation Proclamation?",
+        options: ["George Washington", "Abraham Lincoln", "Theodore Roosevelt", "John F. Kennedy"],
+        answer: "Abraham Lincoln"
+    },
+    {
+        question: "Which famous wall fell in 1989?",
+        options: ["Great Wall of China", "Berlin Wall", "Hadrian's Wall", "Wailing Wall"],
+        answer: "Berlin Wall"
+    },
+    {
+        question: "Who was the first Emperor of China?",
+        options: ["Kublai Khan", "Qin Shi Huang", "Sun Yat-sen", "Mao Zedong"],
+        answer: "Qin Shi Huang"
+    },
+    {
+        question: "What was the period of intellectual and artistic revival in Europe called?",
+        options: ["The Enlightenment", "The Renaissance", "The Industrial Revolution", "The Middle Ages"],
+        answer: "The Renaissance"
+    },
+    {
+        question: "Which explorer first circumnavigated the Earth?",
+        options: ["Christopher Columbus", "Marco Polo", "Ferdinand Magellan", "Vasco da Gama"],
+        answer: "Ferdinand Magellan"
+    },
+    {
+        question: "Who was the first democratically elected President of South Africa?",
+        options: ["Desmond Tutu", "Nelson Mandela", "Jacob Zuma", "F.W. de Klerk"],
+        answer: "Nelson Mandela"
+    },
+    {
+        question: "What was the name of the medieval pandemic that killed millions in Europe?",
+        options: ["The Spanish Flu", "The Bubonic Plague", "The Black Death", "The Great Famine"],
+        answer: "The Black Death"
+    },
+    {
+        question: "Which war was fought between the British and the American colonies for independence?",
+        options: ["World War I", "The American Civil War", "The American Revolution", "The War of 1812"],
+        answer: "The American Revolution"
+    },
+    {
+        question: "Which country built the Great Wall?",
+        options: ["India", "China", "Japan", "Mongolia"],
+        answer: "China"
+    },
+    {
+        question: "Who wrote the Communist Manifesto?",
+        options: ["Karl Marx & Friedrich Engels", "Vladimir Lenin", "Joseph Stalin", "Adam Smith"],
+        answer: "Karl Marx & Friedrich Engels"
+    },
+    {
+        question: "Who was the British Prime Minister during World War II?",
+        options: ["Neville Chamberlain", "Winston Churchill", "Margaret Thatcher", "Tony Blair"],
+        answer: "Winston Churchill"
+    },
+    {
+        question: "What year did the United Nations form?",
+        options: ["1919", "1945", "1950", "1965"],
+        answer: "1945"
+    }
+];
+
+export default historyQuiz;

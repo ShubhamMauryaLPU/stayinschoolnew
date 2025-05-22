@@ -1,0 +1,173 @@
+const cppQuiz = [
+    {
+      question: "What is the correct syntax to print 'Hello, World!' in C++?",
+      options: [
+        "print('Hello, World!');",
+        "cout << 'Hello, World!';",
+        "Console.WriteLine('Hello, World!');",
+        "echo 'Hello, World!';"
+      ],
+      answer: "cout << 'Hello, World!';"
+    },
+    {
+      question: "Which header file is required for input and output operations in C++?",
+      options: ["<stdio.h>", "<iostream>", "<string>", "<math.h>"],
+      answer: "<iostream>"
+    },
+    {
+      question: "Which of the following is used to declare a constant in C++?",
+      options: ["constant", "let", "const", "#define"],
+      answer: "#define"
+    },
+    {
+      question: "What is the default return type of the main() function in C++?",
+      options: ["int", "void", "float", "char"],
+      answer: "int"
+    },
+    {
+      question: "Which operator is used for pointer dereferencing?",
+      options: ["&", "*", "->", "%"],
+      answer: "*"
+    },
+    {
+      question: "What does the 'new' keyword do in C++?",
+      options: [
+        "Creates a new function",
+        "Allocates memory dynamically",
+        "Deletes an object",
+        "Imports a library"
+      ],
+      answer: "Allocates memory dynamically"
+    },
+    {
+      question: "Which loop is guaranteed to execute at least once?",
+      options: ["for loop", "while loop", "do-while loop", "foreach loop"],
+      answer: "do-while loop"
+    },
+    {
+      question: "What is the size of an int data type (typically) in C++?",
+      options: ["2 bytes", "4 bytes", "8 bytes", "Depends on the compiler"],
+      answer: "Depends on the compiler"
+    },
+    {
+      question: "Which keyword is used to prevent function overriding?",
+      options: ["final", "static", "sealed", "override"],
+      answer: "final"
+    },
+    {
+      question: "Which access specifier allows access only within the same class?",
+      options: ["public", "private", "protected", "friend"],
+      answer: "private"
+    },
+    {
+      question: "What is the correct way to declare an array in C++?",
+      options: [
+        "array<int> arr[5];",
+        "int arr(5);",
+        "int arr[5];",
+        "array arr<int>[5];"
+      ],
+      answer: "int arr[5];"
+    },
+    {
+      question: "Which of the following is not a valid loop structure in C++?",
+      options: ["for loop", "foreach loop", "while loop", "do-while loop"],
+      answer: "foreach loop"
+    },
+    {
+      question: "How do you access the first element of an array in C++?",
+      options: ["arr[1];", "arr[0];", "first(arr);", "arr.first();"],
+      answer: "arr[0];"
+    },
+    {
+      question: "Which STL container stores key-value pairs?",
+      options: ["vector", "set", "map", "stack"],
+      answer: "map"
+    },
+    {
+      question: "Which function is used to deallocate memory allocated by 'new'?",
+      options: ["delete", "free", "remove", "dispose"],
+      answer: "delete"
+    },
+    {
+      question: "Which keyword is used to define a class in C++?",
+      options: ["struct", "class", "object", "define"],
+      answer: "class"
+    },
+    {
+      question: "What will happen if we try to access an array index out of bounds?",
+      options: [
+        "Runtime error",
+        "Compiler error",
+        "Segmentation fault (undefined behavior)",
+        "Nothing will happen"
+      ],
+      answer: "Segmentation fault (undefined behavior)"
+    },
+    {
+      question: "Which of the following is used for handling exceptions?",
+      options: ["catch-throw", "try-catch", "handle-error", "error-try"],
+      answer: "try-catch"
+    },
+    {
+      question: "Which operator is used for accessing members of a class through a pointer?",
+      options: [".", "->", ":", "::"],
+      answer: "->"
+    },
+    {
+      question: "What is the purpose of a constructor in C++?",
+      options: [
+        "Initialize an object",
+        "Destroy an object",
+        "Copy an object",
+        "None of the above"
+      ],
+      answer: "Initialize an object"
+    },
+    {
+      question: "Which function is used to find the length of a string in C++?",
+      options: ["str.length()", "str.size()", "strlen(str)", "All of the above"],
+      answer: "All of the above"
+    },
+    {
+      question: "Which feature of C++ allows function overloading?",
+      options: ["Encapsulation", "Polymorphism", "Inheritance", "Abstraction"],
+      answer: "Polymorphism"
+    },
+    {
+      question: "Which type of inheritance is NOT supported in C++?",
+      options: ["Single", "Multiple", "Hybrid", "All are supported"],
+      answer: "All are supported"
+    },
+    {
+      question: "Which of the following is not a fundamental data type in C++?",
+      options: ["int", "char", "string", "float"],
+      answer: "string"
+    },
+    {
+      question: "What is the default access specifier in C++ classes?",
+      options: ["public", "private", "protected", "None"],
+      answer: "private"
+    },
+    {
+      question: "Which loop is used for iterating over elements in STL containers?",
+      options: ["for loop", "foreach loop", "range-based for loop", "do-while loop"],
+      answer: "range-based for loop"
+    },
+    {
+      question: "What will happen if 'delete' is applied to a NULL pointer?",
+      options: ["Crash", "Segmentation fault", "Nothing", "Memory leak"],
+      answer: "Nothing"
+    },
+    {
+      question: "Which of the following concepts allows dynamic method binding?",
+      options: ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"],
+      answer: "Polymorphism"
+    },
+    {
+      question: "What is the correct way to declare a pointer to an integer?",
+      options: ["int ptr;", "int *ptr;", "pointer<int> ptr;", "ptr = int;"],
+      answer: "int *ptr;"
+    }
+  ];
+  export default cppQuiz;

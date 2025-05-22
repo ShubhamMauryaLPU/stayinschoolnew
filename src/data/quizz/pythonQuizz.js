@@ -1,0 +1,155 @@
+const pythonQuiz = [
+    {
+      question: "What is the correct way to output 'Hello, World!' in Python?",
+      options: [
+        "print('Hello, World!')",
+        "echo 'Hello, World!'",
+        "console.log('Hello, World!')",
+        "printf('Hello, World!')"
+      ],
+      answer: "print('Hello, World!')"
+    },
+    {
+      question: "Which keyword is used to define a function in Python?",
+      options: ["function", "def", "func", "define"],
+      answer: "def"
+    },
+    {
+      question: "Which of the following is a mutable data type in Python?",
+      options: ["Tuple", "String", "List", "Set"],
+      answer: "List"
+    },
+    {
+      question: "How do you declare a variable in Python?",
+      options: ["var x = 10", "x = 10", "int x = 10", "declare x = 10"],
+      answer: "x = 10"
+    },
+    {
+      question: "Which symbol is used for single-line comments in Python?",
+      options: ["//", "#", "/* */", "--"],
+      answer: "#"
+    },
+    {
+      question: "What will `type([])` return in Python?",
+      options: ["list", "array", "dict", "tuple"],
+      answer: "list"
+    },
+    {
+      question: "What is the output of `bool('False')` in Python?",
+      options: ["False", "True", "None", "Error"],
+      answer: "True"
+    },
+    {
+      question: "Which function is used to read input from the user?",
+      options: ["scan()", "input()", "read()", "get()"],
+      answer: "input()"
+    },
+    {
+      question: "What is the output of `print(2 ** 3)`?",
+      options: ["6", "8", "9", "16"],
+      answer: "8"
+    },
+    {
+      question: "How do you check the length of a list `my_list`?",
+      options: ["size(my_list)", "my_list.len()", "len(my_list)", "length(my_list)"],
+      answer: "len(my_list)"
+    },
+    {
+      question: "What will `print(type({}))` return?",
+      options: ["dict", "list", "tuple", "set"],
+      answer: "dict"
+    },
+    {
+      question: "Which function is used to convert a string to an integer?",
+      options: ["int()", "str()", "float()", "parseInt()"],
+      answer: "int()"
+    },
+    {
+      question: "Which keyword is used to create a class in Python?",
+      options: ["struct", "class", "define", "object"],
+      answer: "class"
+    },
+    {
+      question: "Which method removes the last element of a list?",
+      options: ["pop()", "remove()", "delete()", "discard()"],
+      answer: "pop()"
+    },
+    {
+      question: "What will `print(3 == '3')` output?",
+      options: ["True", "False", "Error", "None"],
+      answer: "False"
+    },
+    {
+      question: "How do you start a loop that iterates through each item in a list?",
+      options: ["foreach item in list", "for item in list", "loop(item in list)", "iterate list"],
+      answer: "for item in list"
+    },
+    {
+      question: "Which keyword is used for exception handling?",
+      options: ["catch", "try", "handle", "except"],
+      answer: "try"
+    },
+    {
+      question: "What will `print(bool([]))` return?",
+      options: ["True", "False", "None", "Error"],
+      answer: "False"
+    },
+    {
+      question: "Which operator is used for floor division?",
+      options: ["/", "//", "%", "**"],
+      answer: "//"
+    },
+    {
+      question: "What does `range(5)` return?",
+      options: ["[0, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "(0, 1, 2, 3, 4)", "None"],
+      answer: "[0, 1, 2, 3, 4]"
+    },
+    {
+      question: "Which method is used to add an item to a set?",
+      options: ["append()", "insert()", "add()", "push()"],
+      answer: "add()"
+    },
+    {
+      question: "Which module is used for working with regular expressions?",
+      options: ["regex", "re", "match", "pattern"],
+      answer: "re"
+    },
+    {
+      question: "Which keyword is used to define an anonymous function?",
+      options: ["lambda", "func", "define", "anonymous"],
+      answer: "lambda"
+    },
+    {
+      question: "How do you import a module named 'math'?",
+      options: ["import math", "#include math", "require(math)", "using math"],
+      answer: "import math"
+    },
+    {
+      question: "What is the output of `bool(0)`?",
+      options: ["True", "False", "None", "Error"],
+      answer: "False"
+    },
+    {
+      question: "Which operator is used to check if a value exists in a list?",
+      options: ["in", "exists", "has", "contains"],
+      answer: "in"
+    },
+    {
+      question: "Which method is used to convert a list into a tuple?",
+      options: ["tuple()", "convert()", "listToTuple()", "change()"],
+      answer: "tuple()"
+    },
+    {
+      question: "What does `ord('A')` return?",
+      options: ["65", "'A'", "97", "Error"],
+      answer: "65"
+    },
+    {
+      question: "Which function is used to open a file in Python?",
+      options: ["open()", "file()", "read()", "get()"],
+      answer: "open()"
+    }
+  ];
+  
+  export default pythonQuiz;
+  

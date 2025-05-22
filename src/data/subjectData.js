@@ -1,0 +1,17 @@
+const schoolSubjects = [
+  { id: 1, subject: "Hindi", marks: 98 },
+  { id: 2, subject: "English", marks: 98 },
+  { id: 3, subject: "Mathematics", marks: 95 },
+  { id: 4, subject: "Science", marks: 96 },
+  { id: 5, subject: "Social Science", marks: 94 },
+  { id: 6, subject: "Computer Science", marks: 99 },
+];
+const collegeSubjects=[
+    {id:8,subject:"c",marks:90},
+    {id:9,subject:"cpp",marks:90},
+    {id:10,subject:"java",marks:90},
+    {id:11,subject:"react js",marks:90},
+    {id:12,subject:"python",marks:90},
+    {id:13,subject:"Networking",marks:90},
+];
+export {collegeSubjects,schoolSubjects};
